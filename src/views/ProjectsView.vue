@@ -65,7 +65,7 @@
           hover:font-mono hover:text-yellow-200
         "
       >
-        Here you can find a <span class="text-teal-300">selection of my projects</span> as well as visit its <span class="text-teal-300">Github</span>or <span class="text-teal-300">Live demo</span> links. These are the <span class="text-teal-300">projects I most enyoyed</span> given the technology and approach and equally the one's <span class="text-teal-300">I most learned from</span>. <span class="text-teal-300">Hands on experience!</span>.
+        Here you can find a <span class="text-teal-300">selection of my projects</span> as well as visit its <span class="text-teal-300">Github</span> or <span class="text-teal-300">Live demo</span> links. These are the <span class="text-teal-300">projects I most enyoyed</span> given the technology and approach and equally the one's <span class="text-teal-300">I most learned from</span>. <span class="text-teal-300">Hands on experience!</span>.
       </p>
     </div>
   </div>
