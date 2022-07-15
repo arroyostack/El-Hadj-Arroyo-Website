@@ -185,5 +185,6 @@ li {
 
 img {
   border-radius: 5px;
+  max-height: 425px;
 }
 </style>
