@@ -1,6 +1,6 @@
 <template>
   <header>
-      <img src="../assets/logo.svg" class="logo-img" alt="" >
+      <p>arroyostack@gmail.com</p>
       <nav>
           <router-link :to="{name: 'Home'}">Home</router-link>
           <router-link :to="{name: 'projects'}">Projects</router-link>
@@ -48,7 +48,6 @@ header a.router-link-active {
 .logo-img {
   max-width: 30px;
   max-height: 30px;
-  display: none;
 }
 
 
