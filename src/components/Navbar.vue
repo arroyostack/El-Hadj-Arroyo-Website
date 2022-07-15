@@ -1,6 +1,6 @@
 <template>
   <header>
-      <img src="../assets/logo.svg" class="logo-img" alt="" >
+      <img src="../assets/logo.svg" class="logo-img ml-6" alt="" >
       <nav>
           <router-link :to="{name: 'Home'}">Home</router-link>
           <router-link :to="{name: 'projects'}">Projects</router-link>
