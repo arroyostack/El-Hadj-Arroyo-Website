@@ -48,6 +48,9 @@ header a.router-link-active {
 .logo-img {
   max-width: 30px;
   max-height: 30px;
+  display: none;
 }
+
+
 
 </style>
