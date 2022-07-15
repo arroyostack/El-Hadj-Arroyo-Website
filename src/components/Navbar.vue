@@ -1,9 +1,13 @@
 <template>
   <header>
-      <h1>Alayi Bl/og</h1>
+      <img src="../assets/logo.svg" class="logo-img ml-6" alt="" >
       <nav>
           <router-link :to="{name: 'Home'}">Home</router-link>
-          <router-link :to="{name: 'Create'}">Create Post</router-link>
+          <router-link :to="{name: 'projects'}">Projects</router-link>
+          <router-link :to="{name: 'About'}">About</router-link>
+          <router-link :to="{name: 'contact'}">Contact</router-link>
+          
+          
       </nav>
   </header>
 </template>
@@ -39,6 +43,11 @@ header a {
 header a.router-link-active {
   color: #444;
   font-weight: bold;
+}
+
+.logo-img {
+  max-width: 30px;
+  max-height: 30px;
 }
 
 </style>

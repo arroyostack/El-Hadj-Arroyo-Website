@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import Details from '../views/Details.vue'
 import Create from '../views/Create.vue'
 import Tag from '../views/Tag.vue'
+import ProjectsView from '../views/ProjectsView.vue'
+import Contact from '../views/Contact.vue'
+import About from '../views/About.vue'
 
 const routes = [
   {
@@ -10,6 +13,17 @@ const routes = [
     name: 'Home',
     component: HomeView
   },
+  {
+    path: '/projects',
+    name: 'projects',
+    component: ProjectsView
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact
+  },
+  
   {
     path: '/posts/:id',
     name: 'Details',
@@ -26,6 +40,11 @@ const routes = [
     path: '/tags/:tag',
     name: 'Tag',
     component: Tag
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: About
   }
 ]
 

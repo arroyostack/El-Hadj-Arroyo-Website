@@ -2,13 +2,20 @@ import firebase from 'firebase/compat/app'
 import 'firebase/compat/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAZFoz9f63vbt4k-P7WoR9b8MK7J4-ME0Q",
-    authDomain: "netninja-blog-project.firebaseapp.com",
-    projectId: "netninja-blog-project",
-    storageBucket: "netninja-blog-project.appspot.com",
-    messagingSenderId: "449762082849",
-    appId: "1:449762082849:web:6e4c7140176ddf42e12360"
-};
+
+    apiKey: "AIzaSyCUADvAE8BSInfQqkp6lci1jA8CURwK6D4",
+  
+    authDomain: "el-hadj-arroyo-portfolio-1dc18.firebaseapp.com",
+  
+    projectId: "el-hadj-arroyo-portfolio-1dc18",
+  
+    storageBucket: "el-hadj-arroyo-portfolio-1dc18.appspot.com",
+  
+    messagingSenderId: "842786980559",
+  
+    appId: "1:842786980559:web:c6b7d3922ac33d309cedba"
+  
+  };
 
 //init firebase
 firebase.initializeApp(firebaseConfig)
