@@ -1,7 +1,6 @@
 <template>
   <header>
-      <p>arroyostack@gmail.com</p>
-      <nav>
+      <nav class="pr-5">
           <router-link :to="{name: 'Home'}">Home</router-link>
           <router-link :to="{name: 'projects'}">Projects</router-link>
           <router-link :to="{name: 'About'}">About</router-link>
@@ -22,7 +21,7 @@ export default {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
