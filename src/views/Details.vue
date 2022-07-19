@@ -142,6 +142,12 @@
        
         <img :src="post.img2" alt="" />
         <div class="text-gray-500 sm:text-lg mb-6 md:mb-8" v-html="post.body2"></div> 
+
+        <!-- tirar -->
+          
+      
+     
+        <!-- tirar! -->
     </div>
   </div>
 </template>
@@ -186,5 +192,11 @@ li {
 img {
   border-radius: 5px;
   max-height: 425px;
+}
+
+.my-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 </style>
