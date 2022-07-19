@@ -2,7 +2,7 @@
   <div class=" py-6 sm:py-8 lg:py-12">
     <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
       <div class=" rounded-lg px-4 py-6 md:py-8 lg:py-12">
-        <img src="../assets/logo.svg" class="logo-image ml-7" alt="" />
+        <img src="../assets/elhadj.png" class="logo-image ml-7" alt="" />
         <h2
           class=" text-slate-300 text-4xl lg:text-6xl  ml-7 mb-4 md:mb-6 "
         >
@@ -30,7 +30,7 @@
           Exposure to different projects brought an increasingly interest for
           Javascript and web technologies. This has led me to deep dive into not
           only Javascript, HTML and CSS principles, but also frameworks like Vue
-          3, CSS libraries like Sass and backed applications like Firebase.
+          3, CSS libraries like Sass and backend applications like Firebase.
         </p>
         <br />
         <p class="max-w-screen-md text-slate-300 md:text-lg ml-7 mx-auto">
