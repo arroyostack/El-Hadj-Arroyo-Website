@@ -179,7 +179,7 @@ export default {
 };
 </script>
 
-<style>
+<style >
 .tags {
   display: flex;
   flex-direction: row;
@@ -195,8 +195,7 @@ img {
 }
 
 .my-grid{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 </style>
