@@ -41,7 +41,6 @@
         />
         <!-- TAGS -->
         <div class="grid grid-cols-2 md:grid-cols-4 rounded-lg pt-5">
-          <!-- stat - start -->
           <div class="flex flex-col p-2" v-for="tag in post.tags" :key="tag">
             <div
               class="
@@ -60,12 +59,11 @@
               {{ tag }}
             </div>
           </div>
-          <!-- stat - end -->
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 rounded-lg pt-5">
           <div class="flex p-2">
-            <a :href="post.git" target="blank">
+            <a :href="post.git" target="empty">
               <div
                 class="
                   tex-black
@@ -96,7 +94,7 @@
                 </svg>
               </div>
             </a>
-            <a :href="post.live" target="blank">
+            <a :href="post.live" target="empty">
               <div
                 class="
                   tex-black
@@ -128,24 +126,128 @@
               </div>
             </a>
           </div>
-          <!-- stat - end -->
         </div>
       </div>
 
-      <!-- --------- here-->
-     
-      <!-- ---------there -->
-
       <!-- BODY -->
-      
-       <div class="text-gray-500 sm:text-lg mb-6 md:mb-8" v-html="post.body"></div>
-       
-        <img :src="post.img2" alt="" />
-        <div class="text-gray-500 sm:text-lg mb-6 md:mb-8" v-html="post.body2"></div> 
 
-        <!-- tirar -->
-  
-        <!-- tirar! -->
+      <div
+        class="text-gray-500 sm:text-lg mb-6 md:mb-8"
+        v-html="post.body"
+      ></div>
+
+      <img :src="post.img2" alt="" />
+      <div
+        class="text-gray-500 sm:text-lg mb-6 md:mb-8"
+        v-html="post.body2"
+      ></div>
+
+      <!-- triar -->
+      <div class="container">
+        <main class="grid">
+          <article>
+            <img
+              src="https://i.postimg.cc/qM26f88S/Screen-Shot-2022-07-20-at-12-04-10-AM.png"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3 class="light-text text-slate-400 font-medium">
+                Music Event Company
+              </h3>
+              <p class="font-bold text-2xl pt-2 pb-5">DenisDeson Eventos</p>
+              <a
+                href="https://denisdesoneventos.com/"
+                class="light-text btn btn-primary btn-block text-purple-500"
+                target="empty"
+                ><strong>Live Demo</strong></a
+              >
+            </div>
+          </article>
+          <article>
+            <img
+              src="https://i.postimg.cc/jj2jjN7s/Screen-Shot-2022-07-20-at-12-07-35-AM.png"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3 class="light-text text-slate-400 font-medium">Artist</h3>
+              <p class="font-bold text-2xl pt-2 pb-5">Malick Mbengue</p>
+              <a
+                href="https://malickmbengue.com/"
+                class="light-text btn btn-primary btn-block text-purple-500"
+                target="empty"
+                ><strong>Live Demo</strong></a
+              >
+            </div>
+          </article>
+          <article>
+            <img
+              src="https://i.postimg.cc/RZNr6TXb/Screen-Shot-2022-07-20-at-12-10-18-AM.png"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3 class="text-slate-400 font-medium light-text">Restaurant</h3>
+              <p class="font-bold text-2xl pt-2 pb-5">La Isleta de la Vina</p>
+              <a
+                href="https://www.isletadelavina.com/"
+                class="light-text btn btn-primary btn-block text-purple-500"
+                target="empty"
+                ><strong>Live Demo</strong></a
+              >
+            </div>
+          </article>
+          <article>
+            <img
+              src="https://i.postimg.cc/59nkBCYc/Screen-Shot-2022-07-20-at-12-12-23-AM.png"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3 class="light-text text-slate-400 font-medium">Artist</h3>
+              <p class="font-bold text-2xl pt-2 pb-5">Leo Power</p>
+              <a
+              target="empty"
+                href="https://leopower.net/"
+                class="light-text btn btn-primary btn-block text-purple-500"
+                
+                ><strong>Live Demo</strong></a
+              >
+            </div>
+          </article>
+          <article>
+            <img
+              src="https://i.postimg.cc/sgScNQXg/Screen-Shot-2022-07-20-at-12-14-04-AM.png"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3 class="light-text text-slate-400 font-medium">Artist</h3>
+              <p class="font-bold text-2xl pt-2 pb-5">Juan Sainz</p>
+              <a
+                href="https://www.juansainz.com"
+                class="light-text btn btn-primary btn-block text-purple-500"
+                target="empty"
+                ><strong>Live Demo</strong></a
+              >
+            </div>
+          </article>
+          <article>
+            <img
+              src="https://i.postimg.cc/QtPKDmYG/Screen-Shot-2022-07-20-at-12-16-30-AM.png"
+              alt="Sample photo"
+            />
+            <div class="text">
+              <h3 class="light-text text-slate-400 font-medium">
+                Music School (coming soon...)
+              </h3>
+              <p class="font-bold text-2xl pt-2 pb-5">En Clave Flamenca</p>
+              <a
+                href="https://claveflamenca.com/"
+                class="light-text btn btn-primary btn-block text-purple-500"
+                ><strong>Live Demo</strong></a
+              >
+            </div>
+          </article>
+        </main>
+      </div>
+      <!-- tirar -->
     </div>
   </div>
 </template>
@@ -178,6 +280,10 @@ export default {
 </script>
 
 <style>
+.light-text {
+  color: rgba(0, 0, 0, 0.335);
+}
+
 .tags {
   display: flex;
   flex-direction: row;
@@ -188,11 +294,10 @@ li {
 }
 
 img {
-  border-radius: 5px;
   max-height: 425px;
 }
 
-.my-grid{
+.my-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -207,6 +312,7 @@ img {
 .grid > article {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
 
 .grid > article img {
@@ -216,5 +322,4 @@ img {
 .grid .text {
   padding: 20px;
 }
-
 </style>
