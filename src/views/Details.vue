@@ -54,7 +54,7 @@
                 border-2
                 p-2
                 rounded-md
-                hover:bg-teal-300 hover:text-black
+                hover:bg-purple-500 hover:text-black
               "
             >
               {{ tag }}
@@ -77,7 +77,7 @@
                   border-2
                   p-2
                   rounded-md
-                  hover:bg-teal-300
+                  hover:bg-purple-500
                   flex
                   mr-2
                   items-center
@@ -108,7 +108,7 @@
                   border-2
                   p-2
                   rounded-md
-                  hover:bg-teal-300
+                  hover:bg-purple-500
                   flex
                   items-center
                 "
@@ -144,9 +144,7 @@
         <div class="text-gray-500 sm:text-lg mb-6 md:mb-8" v-html="post.body2"></div> 
 
         <!-- tirar -->
-          
-      
-     
+  
         <!-- tirar! -->
     </div>
   </div>
@@ -179,7 +177,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 .tags {
   display: flex;
   flex-direction: row;
@@ -198,4 +196,25 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+}
+
 </style>
