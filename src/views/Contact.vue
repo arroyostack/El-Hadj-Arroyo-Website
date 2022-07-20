@@ -14,7 +14,7 @@
       <div class="w-full flex flex-col sm:flex-row  gap-2.5">
         <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=arroyostack@gmail.com" class="inline-block bg-red-400 hover:bg-green-300 active:bg-indigo-700 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3" target="empty">Gmail</a>
 
-        <a href="linkedin.com/in/elhadjarroyo" class="inline-block bg-amber-400 hover:bg-green-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/elhadjarroyo/" class="inline-block bg-amber-400 hover:bg-green-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">LinkedIn</a>
       </div>
     </div>
   </div>
