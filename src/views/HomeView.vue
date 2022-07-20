@@ -74,7 +74,7 @@
             I am a <span class="text-teal-300">Front End developer </span> based in Spain. Passionate for <span class="text-teal-300">web technologies</span>, <span class="text-teal-300">Javascript</span> ecosystem and how <span class="text-teal-300">web apps</span> are evolving.
           </p>
           <p>
-            My main skills cover <span class="text-teal-300">Html (85%), CSS (75%), Javascript (75%), Vue 3 (70%), Firebase (50%), Sass (50%), Git (50%), Worpress (80%)</span> as well web developing tools and some products from Adobe <span class="text-teal-300">Creative Cloud</span>. In progress: Node js, Jest js, Pinia js
+            My main skills cover <span class="text-teal-300">Html, CSS, Javascript, Vue 3, Firebase, Sass, Git, Worpress</span> as well web developing tools and some products from Adobe <span class="text-teal-300">Creative Cloud</span>
           </p>
           <p>
             <span class="text-teal-300">I enjoy</span> very much <span class="text-teal-300">working along with others</span> in a team environment as well as I am able to complete a project on a one person team.

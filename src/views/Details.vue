@@ -141,10 +141,9 @@
         class="text-gray-500 sm:text-lg mb-6 md:mb-8"
         v-html="post.body2"
       ></div>
-
-    
     </div>
   </div>
+
 </template>
 
 <script>
