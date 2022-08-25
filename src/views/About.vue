@@ -28,20 +28,15 @@
         </p>
         <br />
         <p class="max-w-screen-md text-white font-medium md:text-lg ml-7 mx-auto">
-          Exposure to different projects brought an increasingly interest for
-          Javascript and web technologies. This has led me to deep dive into not
-          only Javascript, HTML and CSS principles, but also frameworks like Vue
-          3, CSS libraries like Sass and backend applications like Firebase.
+         Exposure to different projects brought an increasing interest in Javascript and web technologies. This has led me to deep dive into not only Javascript, HTML and CSS principles, but also frameworks like Vue 3, CSS libraries like Sass and backend applications like Firebase.
         </p>
         <br />
         <p class="max-w-screen-md text-white font-medium md:text-lg ml-7 mx-auto">
-          At the present keep reinforcing my knowledge in Web developing and Javascript
-          related technology and best practices as well as digging deeper into data structures and
-          algorithms.
+          At the present I keep reinforcing my knowledge in Web developing and Javascript related technology and best practices as well as digging deeper into data structures and algorithms.
         </p>
         <br />
         <p class="max-w-screen-md text-white font-medium md:text-lg ml-7 mx-auto font-medium">
-           Looking forward to join a team and build real world apps.
+           Looking forward to joining a team and building real world apps.
         </p>
       </div>
     </div>
